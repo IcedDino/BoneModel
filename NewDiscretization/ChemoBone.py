@@ -16,9 +16,9 @@ time_steps = int(time / dt)
 alpha = [0.2, 0.2] #alpha1, alpha 2
 beta = [0.03, 0.2] #beta1, beta2
 g = [-0.4, 0.1] #g12, g21
-D = [0.045, 0.0001, 0.008] #Dc, Db, DFi
-l = 1 #lambda
-X = [0.015, 0.0008] #c, b
+D = [0.001, 0.0001, 0.1] #Dc, Db, DFi
+l = 0.001 #lambda
+X = [0.00001, 0.00001] #c, b
 gamma = [0.8,0.3,0.01] #gamma1, gamma2, gamma3
 r = [alpha[0], alpha[1], gamma[2], X[0], X[1]]
 
